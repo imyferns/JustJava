@@ -1,0 +1,14 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+    <string name="toppings">Toppings</string>
+    <string name="whipcream" translatable="false">Whipped Cream</string>
+    <string name="chocolate" translatable="false">Chocolate</string>
+    <string name="quantity" translatable="false">Quantity</string>
+    <string name="thank" translatable="false">Thank You :-) </string>
+    <!--
+      Subject line for the order summary email. It will be in the format of
+      "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+</resources>
