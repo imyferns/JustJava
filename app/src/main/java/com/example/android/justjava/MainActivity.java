@@ -54,21 +54,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-
-
-//        Intent intent = new Intent(Intent.ACTION_VIEW);
-//        intent.setData(Uri.parse("geo: 47.6, -122.3"));
-//        if (intent.resolveActivity(getPackageManager()) != null){
-//               startActivity(intent);
-//        }
-
-
-
-
     }
-
-
-
 
 
     /** This method is called when the increment button is clicked
@@ -116,7 +102,8 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Calculates the price of the order.
-     *
+     * @param hasWhippedCream
+     * @param hasChocolate
      * @return total price  is the number of cups of coffee ordered
      */
     private int calculatePrice(boolean hasWhippedCream, boolean hasChocolate) {
